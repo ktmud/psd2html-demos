@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*--------公用部分-----------*/
+#intro {
+    border: 1px dotted #CCFF33;
+    width:550px;
+    position:relative;
+    float:right;
+    margin-top:30px;
+    padding:5px;
+}
+
+/*-----pop.html--------*/
+#albumNameShow {
+    border: 4px dashed #A36733;
+    padding:10px;
+    clear:both;
+    width:550px;
+    font-size:14px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+
+#container1 {
+    width: 100%;
+    position:relative;
+    top:30px;
+}
+
+/*---------summer.html---------*/
+#maydayPose {
+    position:relative;
+    top:22px;
+    margin-left:101px;
+}
+
+#container2 {
+    top:50px;
+    position:relative;
+    width:100%
+}
+
+#mayday {
+    float:left;
+    width:400px;
+    border-right:solid 3px #FFCC00;
+}
+
+
+#mayday blockquote {
+    padding-left:40px;
+}
+
+#mayday p {
+    border-bottom:solid 1px #FFCC00;
+    margin-right:35px;
+}
+
+#albumPic {
+    width: 280px;
+    float: right;
+    height:360px;
+    border:solid 2px #cf0;
+    overflow:hidden;
+    margin-bottom:30px;
+}
+
+#moreBand {
+    clear:both;
+    width:420px;
+}
+
+#albumPic img {
+    padding:10px;
+}
+
+.scroll {
+    background:#336633;
+    width: 274px;
+    position:absolute;
+    clear:both;
+    height:14px;
+    padding:3px;
+    opacity:0.5;
+    filter: Alpha(Opacity = 50);
+    text-align:center;
+    font-size:14px;
+}
+
+.Up {
+}
+
+.Down {
+    top:342px;
+}
+
+/*----------wind.html-----------*/
+#mainContents {
+    width:655px;
+    margin:0 auto;
+    position:relative;
+    clear:both;
+    top:40px;
+}
+
+#mainContents p {
+    border-bottom:solid 1px #dee748;
+    color:#245911;
+}
+
+#mainContents table {
+    border: solid 1px #ff5;
+    width:580px;
+    margin:5px auto;
+    padding:2px;
+    color:#996600;
+}
+
+#contents h2 {
+    color: #fff;
+    text-align: center;
+    font: bold 24px "黑体";
+    position:relative;
+    top:30px;
+    clear:both;
+    width:40%;
+    margin:0 auto;
+    border:2px solid #FFFF66;
+    background-color:#99CC00;
+    opacity:0.7;
+    filter: Alpha(Opacity=70);
+}
+
+#mainContents table a img {
+    filter: Alpha(Opacity=50);
+    opacity:0.5;
+}
+
+#mainContents table a:hover img {
+    filter: Alpha(Opacity=100);
+    opacity:1;
+}
+
+#albums {
+    display:none;
+}
+
+.toggle {
+    cursor:pointer;
+    width:65%;
+    background:#666600;
+    filter: Alpha(Opacity=40);
+    opacity:0.4;
+}
+
+.bottom {
+    display:none;
+}

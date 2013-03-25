@@ -1,0 +1,374 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("basic.css");
+
+#mainContainer {
+    height:890px;
+}
+
+/*----重定义顶部----*/
+#headerLeft {
+    width:180px;
+}
+
+#header {
+    background:#f0d22e url(../img/bg/header_bg.gif) top right no-repeat;
+}
+
+#headerRight {
+}
+
+#bigLogo {
+    margin:3px 0 0 45px;
+}
+
+#sicauLogo {
+    margin:10px;
+}
+
+/*----重定义顶部结束----*/
+
+/*----双栏盒子开始----*/
+#doubleBox {
+    height:210px;
+}
+
+#campusNews,
+#usefulPhone {
+    width:48%;
+    float:left;
+}
+
+#doubleBox .box {
+    position:absolute;
+    width:254px;
+    height:140px;
+    margin:5px 5px 0 5px;
+    color:#90aa37;
+    padding:15px 10px;
+    letter-spacing:0;
+}
+
+#doubleBox h2 {
+    font:11pt "微软雅黑", "幼圆", "黑体";
+    color: #30afa5;
+    background: #d5ecc5;
+    border: 1px solid #96b193;
+    padding:2px 0;
+    margin:0 auto;
+    letter-spacing:1pt;
+    width:106px;
+    text-align:center;
+}
+
+#newsList {
+    text-align:right;
+}
+
+#newsList li {
+    padding:2px;
+    border-bottom:1px dashed #cadeb9;
+}
+
+#newsList a {
+    color:#3a7c48;
+    float:left;
+ *padding-top:1px;
+}
+
+#newsList a:hover {
+    text-decoration:underline;
+}
+
+#newsList a:visited {
+    color:#647568;
+}
+
+#doubleBox .more {
+    letter-spacing:0.1em;
+    display:block;
+    position:absolute;
+    bottom:5px;
+    right:15px;
+}
+
+#doubleBox .more img {
+    float:left;
+    margin-right:3px;
+}
+
+#campusNews .more {
+    color:#7ba932;
+    font:10pt "微软雅黑", "幼圆", "黑体";
+    font-weight:bold;
+}
+
+#campusNews .more:hover {
+    color:#a73
+}
+
+#usefulPhone {
+    margin-left:10px;
+}
+
+#usefulPhone p {
+    margin-bottom:1.4em;
+}
+
+#usefulPhone .more {
+    color:#81b889;
+}
+
+#usefulPhone .more a {
+    color:#18a847;
+    text-decoration:underline;
+}
+
+#usefulPhone .more a:hover {
+    background-color:#efa
+}
+
+/*----双栏盒子结束----*/
+
+/*---公告-----*/
+#announce {
+    margin:0 20px;
+}
+
+#announce * {
+    display:block;
+    float:left;
+}
+
+#announce img {
+    margin:0 10px;
+}
+
+.announceBox {
+    width:430px;
+    height:20px;
+    position:absolute;
+}
+
+#bg-announce {
+    background:#e7f6c8;
+    border:solid 1px #40791d;
+}
+
+#announceCont dt {
+    width:150px;
+    overflow:hidden;
+    margin:3px 10px;
+    *margin-top:5px;
+    _margin-left:5px;
+}
+
+#announceCont dt a {
+    color:#7b923d;
+}
+
+#announceCont dt a:hover {
+    color:#985;
+}
+
+#announceDetail {
+    color:#7b923d;
+    margin:2px 10px;
+    overflow:hidden;
+    line-height:1.2em;
+    height:18px;
+    width:240px;
+}
+
+#scroller_container {
+   position: relative;
+   height:18px;
+    width:240px;
+    overflow:hidden;
+    
+}
+
+/* CSS Hack Safari */
+#dummy {
+;
+#
+}
+
+#scroller_container {
+    overflow: auto;
+}
+
+/*----第二组内容----*/
+#secondGroup {
+    margin:30px 20px 10px 5px;
+    height:175px;
+}
+
+#secondGroup div {
+    float:left;
+}
+
+/*------图片新闻--------*/
+
+#secondGroup .more {
+    margin:8px 5px auto auto;
+}
+
+#picNews {
+    width:210px;
+}
+
+.picBox {
+    height:150px;
+    width:210px;
+}
+
+#picCont {
+    text-align:center;
+    width:190px;
+    height:130px;
+    margin:10px;
+}
+
+#picCont #images {
+    clear:both;
+    float:none;
+    margin-bottom:5px;
+}
+
+#picCont a {
+    color:#e5fdcd;
+    font-weight:bold;
+    float:left;
+    display:block;
+    margin: 0 12px;
+}
+
+#picCont a:hover {
+    color:#fffdab;
+}
+
+#picCont #images img {
+    border:2px solid #9fa539;
+}
+
+/*----回音壁------*/
+#echo {
+    width:220px;
+    margin:0 10px;
+    color:#13520b;
+}
+
+.echoBox {
+    width:220px;
+    height:150px;
+}
+
+#echoCont {
+    padding:0.8em 1em;
+    line-height:1.2em;
+}
+
+#echoCont strong {
+    font-weight:bold;
+}
+
+#echoCont .more {
+    color:#55490e;
+    text-decoration:underline;
+    position:absolute;
+    right:0.5em;
+    bottom:5px;
+}
+
+#echoCont .more:hover {
+    color:#315e10;
+    background-color:#efeb81;
+}
+
+/*-------生活小窍门----------*/
+#tips {
+    width:90px;
+}
+
+#tips .more {
+    margin-top:60px;
+}
+
+.tipsBox {
+    width:64px;
+    height:150px;
+}
+
+#tipsContainer {
+    margin-top:22px;
+}
+
+#tipsCont {
+    text-align:center;
+    padding:45px 5px 15px 5px;
+    width:53px;
+    height:93px;
+}
+
+#tipsCont a {
+    color:#367b58;
+}
+
+#tipsCont img {
+    top:-22px;
+    left:-3px;
+}
+
+/*---------快速服务---------------*/
+#quickService {
+    margin:0 20px;
+}
+
+#quickService img {
+    margin-right:15px;
+}
+
+/*--------公司简介-------*/
+#companyIntro {
+    height:172px;
+    margin:10px 60px 0 20px;
+}
+
+#introGlow {
+    width:460px;
+    margin-right:40px;
+    height:160px;
+    border: 6px solid #f9ec15;
+    opacity:0.2;
+    filter: Alpha(opacity=20);
+}
+
+#bg-companyIntro {
+    border: 3px solid #bbb849;
+    background:#def3c0;
+}
+
+.introBox {
+    width:454px;
+    height:154px;
+    margin:6px;
+}
+
+#introCont {
+    padding:5px 20px;
+    width:420px;
+    height:150px;
+    color:#5b521f;
+}
+
+#introCont p {
+    text-indent:2em;
+    line-height:1.5em;
+    margin-bottom:0.5em;
+}
+
+#introCont .more {
+    color:#851
+}

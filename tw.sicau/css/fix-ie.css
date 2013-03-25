@@ -1,0 +1,65 @@
+#search-form {
+ *bottom:59px;
+	_bottom:58px;
+}
+.main-nav {
+	_bottom:4px;
+}
+div#main-nav-pointer {
+	_bottom:30px;
+}
+.pic-slider-goto a, #bg-pic-slider-title {
+	filter:alpha(opacity=50);
+}
+.pic-slider-goto li a:hover, .pic-slider-goto li a.focus {
+	filter:alpha(opacity=80);
+}
+.pic-slider-goto li a.active {
+	filter:alpha(opacity=100);
+}
+input.btn, input.form-submit {
+ *padding-top:4px;
+	position:relative;
+	z-index:30;
+}
+.breadcrumb {
+	padding-top:7px;
+}
+.breadcrumb a {
+	position:relative;
+	z-index:40;
+}
+ul.tab-tt li a {
+	_padding-top:8px
+}
+ul.tab-tt li.active {
+	_height:22px;
+}
+ul#hotlinks-list li {
+	_margin-bottom:5px;
+}
+.meta a {
+	padding-top:7px;
+}
+.cluetip-jackoko #cluetip-extra {
+	filter:alpha(opacity=40);
+	_display:none;
+}
+.cluetip-jackoko #cluetip-outer {
+	_padding:0;
+	_border:solid 6px #333;
+}
+.ui-datepicker-cover {
+	filter: mask(); /*must have*/
+}
+ul.menu ul {
+	_left:86%;
+}
+div.above { 
+	_position: absolute;
+	_margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+.vote-form  input.form-submit{
+	_height:19px;
+}

@@ -1,0 +1,166 @@
+@charset "utf-8";
+body, div, table, tr, td, img, ul, li, p, span {
+	border:0;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif, "宋体";
+}
+body {
+	background-image:url(../img/main_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	font-size:12px;
+	overflow-x:hidden;
+}
+td {
+	border-bottom: 1px solid #FFCC66;
+	vertical-align: middle;
+	text-align:center;
+	height:21px;
+	font-size:12px;
+}
+th {
+	background-color:#9AA;
+	color:#fff;
+	border-top: 2px solid #FFCC66;
+	border-bottom: 2px solid #FFCC66;
+	height:22px;
+	vertical-align: middle;
+	text-align:center;
+}
+tr.over td {
+	background-color:#CDD;
+}
+tr.alt td {
+	background-color:#FFFFCC;
+}
+ul {
+	list-style-position: outside;
+	list-style-image: none;
+	list-style-type: none;
+}
+a {
+	text-decoration:none;
+	color:#FF9900;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:visited {
+	color:#37a;
+}
+h1, h2, h3, h4, h5 {
+	font-family: "方正准圆简体", "黑体";
+	font-weight:bold;
+	color:#ec7631;
+	padding:0;
+	margin:0;
+}
+h1 {
+	font-size: 18px;
+}
+h2 {
+	font-size: 14px;
+}
+h3 {
+	font-size:14px;
+	color:#fda36e;
+}
+.headLine {
+    font-family: "方正准圆简体", "黑体";
+	font-weight:bold;
+	color:#ec7631;
+	font-size: 18px;
+	padding:0;
+	margin:0;
+}
+.subTitle {
+	font-size:14px;
+	color:#fda36e;
+}
+h4 {
+	font-family:"黑体";
+	color:#92a305;
+	font-size:14px;
+	font-weight:normal;
+	padding-top:5px;
+}
+h5 {
+	font-family:"黑体";
+	color: #305E72;
+	font-size:16px;
+	margin:20px 0 10px 0;
+	font-weight:normal;
+	padding:10px 5px;
+	border-bottom: 2px solid #cc0;
+}
+h6 {
+	font-family:"微软雅黑", "黑体";
+	font-size:24px;
+	color: #006633;
+	margin:0;
+	padding:0;
+}
+p {
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+#mainContainer {
+	width:1002px;
+	height:1195px;
+	margin:0 auto;
+}
+#top {
+	width:1002px;
+	height:200px;
+}
+#nav {
+	height:34px;
+	background-image:url(../img/nav_bg.gif);
+	background-repeat:repeat-x;
+	position:relative;
+	top:166px;
+	float:left;
+}
+#nav ul {
+	width:100%;
+	height:34px;
+}
+#nav li {
+	display:inline;
+	float:left;
+	height:34px;
+	width:80px;
+	text-align:center;
+}
+#nav li a {
+	color:#fff;
+	font-family: "方正准圆简体", "黑体";
+	font-size: 14px;
+	font-weight:bold;
+	height:24px;
+	display:block;
+	padding-top:10px;
+	cursor:pointer;
+}
+#nav li a:hover {
+	color:#FFFFCC;
+	text-decoration:none;
+	background-image:url(../img/nav_bg_hover.GIF);
+	background-repeat:repeat-x;
+}
+.more {
+	float:right;
+	color:#7f9130;
+	padding-right:10px;
+}
+#footer {
+	color:#0072b8;
+	text-align:center;
+	height:30px;
+	width:1002px;
+	position:relative;
+	top:10px;
+	bottom:40px;
+	clear:BOTH;
+}

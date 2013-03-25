@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+    margin:0;
+    padding:0;
+    border:none;
+    background-repeat:no-repeat;
+    list-style:none;
+}
+
+hr {
+    display:none;
+}
+
+p {
+    text-indent: 2em;
+    margin-bottom: 0.6em;
+    margin-top:0.2em;
+    line-height:1.4em;
+    letter-spacing:0.2ex;
+}
+
+div {
+    font-size:12px;
+}
+
+a {
+    text-decoration:none;
+}
+
+p a:link, table a:link {
+    color:#fd6;
+    border-bottom:1px dashed #fd6;
+}
+
+p a:visited, table a:visited {
+    color:#fd9;
+    border-bottom:1px dashed #fd9;
+}
+
+p a:hover, table a:hover {
+    color:#6a3;
+    background:#ffc;
+}
+
+body {
+    background:#e4af15 url(../img/bg_main.jpg) no-repeat center top;
+}
+
+table {
+border-top:solid 2px #FFCC66;
+border-bottom:solid 2px #FFCC66;
+}
+th{
+color:#FFFFFF;
+background-color:#336600;
+filter: Alpha(Opacity=50);
+opacity: 0.5;
+border-bottom:solid 1px #FFCC66;
+padding:2px;
+}
+
+h3{
+    font-size:16px;
+    font-weight:bold;
+    border-bottom:solid 2px #FFCC00;
+    text-transform: capitalize;    
+    }
+#all {
+    margin:0 auto;
+    width:783px;
+}
+
+#header {
+    margin:44px 0 0 53px;
+    height:120px;
+}
+
+#header img {
+    float:left;
+    clear:none;
+}
+
+#nav {
+    clear: both;
+}
+
+#nav h2 {
+    font:16px "微软雅黑", "幼圆", "黑体";
+    letter-spacing: 0.2em;
+    left:140px;
+    margin-top:2px;
+!important;
+ *margin-top:-3px;
+    color: #dee748;
+    float:left;
+    position:relative;
+    clear:none;
+}
+
+/*----------------导航菜单开始-----------------*/
+#menu {
+    list-style: none;
+    margin-left:218px;
+    margin-top:-6px;
+    position:relative;
+    clear:none;
+}
+
+*html #menu {
+    height:31px;
+    margin-left:216px;
+}
+
+#menu li {
+    display:inline;
+    float:left;
+}
+
+#menu a {
+    display: block;
+    text-indent: -1900px;
+    outline: none;
+    width: 105px;
+    height: 31px;
+}
+
+#menu a:hover {
+    background-position: center bottom;
+}
+
+#menu .pop {
+    background: url(../img/pop.gif);
+}
+
+#menu .dream {
+    background: url(../img/dream.gif);
+}
+
+#menu .wind {
+    background: url(../img/wind.gif);
+    width:104px;
+}
+
+#menu .summer {
+    background: url(../img/summer.gif);
+}
+
+#menu .cheer {
+    background: url(../img/cheer.gif);
+}
+
+#menu .jay {
+    background: url(../img/jay.gif);
+}
+
+/*----------导航菜单结束------------*/
+
+#contents {
+    width:720px;
+    margin:0 auto;
+    font-size: 12px;
+    color:#f3f6d2;
+}
+
+#footer {
+    float:right;
+    margin:20px 0px 10px 0;
+    position:relative;
+    clear:both;
+    width:300px;
+    }
+
+#footer .l {
+    background:url(../img/footer_l.gif);
+    height:30px;
+    width:6px;
+    float:left;
+}
+
+#footer .r {
+    background:url(../img/footer_r.gif);
+    height:30px;
+    width:6px;
+    float:left;
+}
+
+#footer .c {
+    background:url(../img/footer_c.gif) repeat-x;
+    float:left;
+    height:30px;
+}
+
+#footer .c .cont {
+    color:#efa;
+    padding: 9px;
+}
+
+#footer a {
+    color: #fe6;
+    border-bottom: 1px dashed #fe6;
+}
+#footer a:hover { color:#350; background:#fe6;}
+
+#bottomInfo {
+    color:#cf4;
+    font: 14px "微软雅黑", "幼圆", "黑体";
+    float:right;
+    clear:right;
+    padding-right:10px;
+    position:relative;
+    top:20px;
+}
+
+#bottomInfo a {
+    color:#df2;
+    border-bottom:none;
+}
+
+#bottomInfo p a:hover {
+     text-decoration:underline;
+     background:transparent;
+}
+
+#bottomInfo blockquote {
+    font-size: 12px;
+    width:200px;
+    color:#b19726;
+    text-align:right;
+}
+
+#bottomInfo blockquote a:hover {
+    text-decoration:underline;
+}
+#bottomInfo #backLink {
+    font-size: 12px;
+    color: #FFFF99;
+}

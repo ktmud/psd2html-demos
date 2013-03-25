@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* 高阶CSS样式，用于用户网速和客户端条件都比较好的时候 */
+
+.node {
+	background:url(../img/bg_node.png) no-repeat;
+}
+#first-content .node h3 {
+	background: url(../img/bg_yellow0.1.png);
+}
+.item-list .pager li {
+	background:url(../img/bg_red0.1.png);
+}
+.item-list .pager li a:hover, .pager li.pager-next, .pager li.pager-previous {
+	background:url(../img/bg_red0.3.png);
+}
+.item-list .pager li.pager-current {
+	background: url(../img/bg_red0.6.png);
+}

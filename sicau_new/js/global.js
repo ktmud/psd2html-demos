@@ -1,0 +1,9 @@
+$(this).ready(function(){
+	$("li.a").hover(function(){
+						$(this).addClass("hover")
+						$(this).children("ul").show()
+							},function(){
+						$(this).children("ul").hide()
+						$(this).removeClass("hover")
+							})
+	})

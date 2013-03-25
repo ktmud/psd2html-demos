@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+#contents img {
+    border-bottom:30px solid #838112;
+    position:relative;
+    top:45px;
+}
+#articleList h3 {
+    padding-left: 8px;
+    border-left: 15px solid #FFCC00;
+}
+
+
+#singerInfo {
+    width: 240px;
+    float:right;
+    clear:left;
+    border-left:solid 1px #FFCC00;
+    margin-right:20px;
+}
+
+#singerInfo table {
+    width: 100%;
+    border-top:none;
+}
+
+#singerInfo strong {
+    color: #F3FEC2;
+}
+
+#albumInfo {
+    width: 430px;
+    position:relative;
+    top:30px;
+}
+
+#albumInfo h4 {
+    font-size:14px;
+}
+
+/*=========文章列表===========*/
+#articleList {
+    float: left;
+    width:700px;
+    padding:10px;
+    position:relative;
+    top:10px;
+}
+
+#articleList dl {
+    margin:10px;
+}
+
+#articleList dt {
+    font:bold 14px "微软雅黑", "幼圆", "黑体";
+    border-bottom: 1px solid #FFCC00;
+    width: 70%;
+}
+
+#articleList dt .author {
+    font-size: 12px;
+    font-weight: normal;
+    margin:0 5px;
+}
+
+#articleList dt .date {
+    color:#F5E0C2;
+    font: normal 11px Pmingliu, verdana, arial, sans-serif;
+    letter-spacing: 0.1ex;
+}
+
+#articleList dd {
+    padding: 12px;
+}
+#articleList a{color:#F9E380; display:inline;}
+#articleList a:hover{background:#F4DBB5; color: #336600;}
+
+#articleList blockquote {
+    float:right;
+    color:#b19726;
+    text-align:right;
+}
+
+#articleList blockquote a {
+    color:#fd6;
+    border-bottom:1px dashed #fd6;
+}
+
+#articleList blockquote a:hover {
+    color:#6a3;
+    background:#ffc;
+}
+
+.running {
+    background:#f44;
+    border:1px solid #fff;
+    padding:2px;
+    }

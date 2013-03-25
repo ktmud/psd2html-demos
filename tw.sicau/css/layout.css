@@ -1,0 +1,356 @@
+/*-----布局  v0.1   2008-8-15-----*/
+
+/*********************************************************
+ * 共青团四川农业大学委员会网站 
+ * 版权所有: 06级木科系装饰2班   杨建超(http://jackoko.cn)
+ *--------------------------------------------------------*/
+
+/*--initalize初始化--------------*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, optgroup, button, p, blockquote, th, td, label {
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:bold;
+}
+ol, ul {
+	list-style:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+caption, th {
+	text-align:left;
+}
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border:0;
+}
+optgroup, address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+/*--basic style基本样式--*/
+.rteindent1 {
+	margin-left: 40px;
+}
+.rteindent2 {
+	margin-left: 80px;
+}
+.rteindent3 {
+	margin-left: 120px;
+}
+.rteindent4 {
+	margin-left: 160px;
+}
+.rteleft {
+	text-align: left;
+}
+#all .rteright {
+	text-align: right;
+}
+#all .rtecenter {
+	text-align: center;
+}
+#all .rtejustify {
+	text-align: justify;
+}
+div.content ul li, div.help ul li {
+	position:relative;
+	z-index:30;
+	padding:0.4em 0 0.2em 1.1em;
+	line-height:1em;
+	list-style: url() none;
+	background: url(../img/menu-leaf.gif) no-repeat 0.2em 0.6em;
+}
+div.content ul.no-leaf li {
+	position:relative;
+	z-index:30;
+	padding:0;
+	line-height:1em;
+	height:1em;
+	list-style: url() none;
+	background:none;
+}
+div.content .item-list ul li ,div.help ul li{
+	background-image: url(../img/bullet_green.gif);
+	margin:0;
+	text-align:left;
+}
+html.js fieldset.collapsed {
+	margin-bottom:1em;
+}
+div.messages {
+	font-size:14px;
+	padding:0.4em 1em;
+	margin:0.5em 0;
+}
+div.above {
+	position:absolute;
+	top:80%;
+	left:40%;
+	z-index:100;
+}
+.block ul {
+	padding-left:1.2em;
+}
+ul.links{
+	margin:1em 0;
+}
+/*--basic layout基本布局-----------------*/
+html {
+	background:#fff url(../img/bg_all.png) repeat-x top; /* 顶部渐变 */
+	font-size:13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif
+}
+body {
+	text-align:center;
+	background:url(../img/bg_all_bottom.png) repeat-x bottom; /* 底部渐变 */
+	padding-bottom:10px;
+}
+#all {
+	position:relative;
+	padding-top:90px;
+	width:980px;
+	text-align:left;
+	margin:0 auto;
+	background:url(../img/main-pic.jpg) no-repeat top; /* 头部主背景 */
+}
+#main-contents {
+	width:980px;
+	position:relative;
+	top:20px;
+	z-index:20;
+	background: url(../img/bg_bottom-0.png) no-repeat bottom center;
+}
+/* 中 */
+#first-content {
+	width:320px;
+	position:relative;
+	padding-top:0;
+	left:240px;
+	padding-bottom:40px;
+}
+/* 右 */
+#right-content {
+	position:absolute;
+	width:356px;
+	left:600px;
+	top:0px;
+}
+/* 左 */
+#left-content {
+	position:absolute;
+	left:22px;
+	top:0;
+	width:210px;
+	padding-bottom:40px;
+}
+/*--只有左边栏--*/
+.sidebar-left #first-content {
+	width:710px;
+	left:245px;
+}
+.sidebar-left #left-content {
+	width:210px;
+}
+/*-------------------*/
+
+
+/*--branding顶部标牌----------------------*/
+#brand {
+	height:215px;
+	position:relative;
+}
+#brand a {
+	text-indent:-9999px;
+	outline:0;
+}
+#brand p span {
+	display:none;
+}
+h1 {
+	position:absolute;
+	left:190px;
+}
+h1 a {
+	display:block;
+	height:110px;
+	width:540px;
+}
+#brand p a#site-url {    /* 添加收藏夹的链接 */
+	display:block;
+	height:12px;
+	width:140px;
+	position:absolute;
+	right:28px;
+	top:2px;
+}
+#brand p a#site-url:hover {
+	background:url(../img/site-url.gif) no-repeat center center;
+}
+#skip-links {
+	display:none;
+}
+/*--search form搜索表单--*/
+#brand .search-form {
+	position:absolute;
+	right:38px;
+	top:134px;
+	margin:0;
+}
+#brand #search-keyword {
+	border-width:0;
+	background:transparent;
+	font:normal 12px "normal Verdana", Arial, Helvetica, sans-serif;
+	color: #ffb891;
+	width:110px;
+	height:20px;
+	padding:0;
+}
+#brand .search-submit {
+	display:none;
+}
+/*---END SEARCH FORM-----*/
+
+/*--Main Navigation主导航条--*/
+.main-nav {
+	position:absolute;
+	bottom:5px;
+	left:186px;
+	width:768px;
+	height:39px;
+	overflow:visible;
+	cursor:pointer;
+}
+ul.main-nav li {
+	float:left;
+}
+div#main-nav-pointer {    /* 指示活动导航项的小三角 */
+	width:17px;
+	height:16px;
+	background:url(../img/nav-pointer.png) no-repeat left top;
+	position:absolute;
+	bottom:31px;
+	left:212px;
+	z-index:10;
+}
+ul.main-nav li a {
+	display:block;
+	width:100px;
+	height:39px;
+}
+ul.main-nav li a:hover, ul.main-nav li a.active {
+	background-image:url(../img/hover_main-nav.png);
+	background-repeat:no-repeat;
+}
+ul.main-nav li.menu-200 a {
+	width:64px;
+	background-position:0 bottom;
+}
+ul.main-nav li.menu-330 a {
+	background-position:-64px bottom;
+}
+ul.main-nav li.menu-202 a {
+	background-position:-164px bottom;
+}
+ul.main-nav li.menu-203 a {
+	background-position:-264px bottom;
+}
+li.menu-204 a {
+	background-position:-364px bottom;
+}
+li.menu-205 a {
+	background-position:-464px bottom;
+}
+li.menu-206 a {
+	background-position:-564px bottom;
+}
+li.menu-207 a {
+	background-position:-664px bottom;
+	width:104px;
+}
+/*-- END MAIN-NAV --*/
+
+/*-- END----------BRANDING ---------- 顶部标牌--*/
+
+
+/*-- 底部站点信息 ---------*/
+#site-info {
+	position:relative;
+	z-index:0;
+	background:#FBDEC1 url(../img/bg_bottom.png) no-repeat center top;
+	width:940px;
+	height:96px;
+	padding:30px 20px 0;
+	margin:0 auto;
+	overflow:visible;
+	color:#f7a7a7;
+	font:normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+#site-info a {
+	color:#fff4ad;
+}
+#site-info a:hover {
+	color:#ffc;
+	border-bottom:dashed 1px #eaa;
+	text-decoration:none;
+}
+#site-info p {
+	margin:0 auto 0.5em 1em;
+}
+/*-- END SITE-INFO ---------*/
+/*------------END BASIC LAYOUT------------------------------------------*/
+
+
+/*-- OTHER ---------*/
+#contact-mail-page {
+	padding-bottom:4em;
+}
+#first-content div.clear-block {
+	margin-bottom:15px;
+	padding-top:5px;
+}
+#first-content .container-inline {
+	padding:10px;
+}
+#contact-mail-page p {
+	line-height:1.5em;
+	padding-bottom:0.8em;
+}
+#contact-mail-page * p {
+	padding:0;
+}
+#menu-overview-form td {
+	padding:0.1em 0.4em;
+	vertical-align:middle;
+}
+.description {
+	padding-top:0.6em;
+	color:#655;
+	font-size:90%;
+}
+form.confirmation ul {
+	line-height:1.5em;
+	margin:1em;
+	color:#655;
+}
+/*-- END OTHER ---------*/
+
+
+/*---Localize模块修正--*/
+#l10n-client {
+	display:block;
+}
+#l10n-client-string-editor .source .source-text {
+	height:15em;
+}
+#search-filter-clear {
+	position:fixed;
+	bottom:0.2em;
+	left:33em;
+}

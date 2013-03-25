@@ -1,0 +1,210 @@
+/* FCKEditor所用样式 */
+html {
+	font:normal 13px Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+	color:#600;
+	line-height:100%;
+	text-decoration:none;
+	font-size:inherit;
+}
+li {
+	margin:0;
+	font-size:13px;
+	padding:0;
+}
+ol, ul{
+	list-style:none;
+	margin:0;
+	padding:
+}
+ul li a {
+	line-height:inherit;
+}
+table {
+	width:100%;
+	margin:0 auto 2em;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+th, td {
+	padding:0.4em;
+	border:solid 1px #eaa;
+	background:#fee;
+}
+th {
+	background:#f6e0e0;
+}
+thead th {
+	border-bottom-color:#daa;
+	background:#fdd;
+	text-align:center;
+}
+table.system-status-report th {
+	border-bottom:solid 1px #b66;
+}
+.odd th, .odd td {
+	background:#fff;
+}
+.odd th {
+	background:#ffe9e9;
+}
+th.views-field {
+	background:#ebb;
+	text-align:center;
+	border-bottom:0;
+}
+td.active {
+	background:#ffdad6;
+}
+/* 强调 */
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+/* 列表 */
+.item-list ul li {
+	padding:0.4em 0 0.2em 1.1em;
+	line-height:1em;
+	list-style: none none;
+	background: url(../img/bullet_green.gif) no-repeat 0.2em 0.6em;
+	margin:0;
+}
+dt {
+	padding:0.4em 0;
+}
+dd {
+	padding:0 0 0.5em 2em;
+}
+/* fieldset */
+fieldset {
+	padding:0.5em 1em;
+	margin:1em 0;
+	border:solid 1px #d1b4b4;
+	background:#faeded url(../img/bg_block.png) repeat-x top;
+}
+legend {
+	background:#fffefe;
+	border:solid 1px #d1b4b4;
+	line-height:1em;
+	padding:0.2em 0.4em;
+}
+cite {
+	text-align:right;
+	display:block;
+	font-size:90%;
+}
+h3 {
+	font:normal 13px "宋体";
+	border-top:solid 1px #c33;
+	border-bottom:solid 1px #c33;
+	background:#FFFAE5;
+	padding:0.6em 0.6em 0.5em;
+	position:relative;
+	z-index:22;
+}
+h3 a {
+	color:#d00;
+}
+h3 a:hover {
+	border-bottom:solid 2px #d00;
+	text-decoration:none;
+}
+p {
+	text-indent:2em;
+	line-height:1.4em;
+	padding-bottom:0.4em;
+	font-size:14px;
+	letter-spacing:1px;
+	color:#333;
+	text-align:justify;
+}
+.no-indent{
+	text-indent:0;
+}
+blockquote {
+	margin-left:2em;
+}
+/*--列表----------------------*/
+ul.common-list, ul.common-list a {
+	font-size:13px;
+	letter-spacing:0;
+	color:#b62e2e;
+}
+ul.common-list li {
+	margin:0.5em 0;
+	background:url(../img/bullet_red.gif) no-repeat left center;
+	padding-left:1em;
+}
+ul.common-list li.alt {
+	background:url(../img/bullet_green.gif) no-repeat left center;
+}
+ul.common-list li.alt a {
+	background:#fee;
+}
+/*------*/
+ul.big-list li {
+	font-size:14px;
+	letter-spacing:1px;
+}
+ul.big-list .time {
+	color:#b99;
+	font-size:12px;
+}
+div.messages {
+	font-size:14px;
+	padding:0.4em 1em;
+	margin:0.5em 0;
+}
+div.error {
+	background:#fee;
+	color:#c00;
+}
+div.error a {
+	background:#fff;
+	text-decoration:underline;
+}
+div.error a:hover {
+	text-decoration:none;
+	background:#fe0;
+}
+div.password-description {
+	padding:0.4em;
+}
+div.status {
+	color:#280;
+	border:solid 1px #4a0;
+	background:#efe;
+}
+div.attention {
+	border-left:solid 10px #d33;
+	background:#ffa;
+	color:#d33;
+}
+.discription {
+	color:#666;
+}
+div.help {
+	background:#effff0;
+	padding:0.6em 1em;
+	border:solid 1px #9aa;
+	line-height:1.6em;
+	color:#254;
+	margin:0.6em 0;
+}
+div.help ul li {
+	position:relative;
+	z-index:30;
+	padding:0.2em 0 0.2em 1.1em;
+	line-height:1.2em;
+	list-style: url() none;
+	background: url(img/bullet_green.gif) no-repeat 0.2em 0.6em;
+}
+blockquote {
+	margin:0.5em 0 0.5em 1.6em;
+	padding:0.6em;
+	border:solid 1px #eae3e3;
+	background:#fbf2f2;
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+#Scrollbar-Container{
+    float:right;
+	clear:none;
+	}
+.Scrollbar-Up {
+ background-image:url(../img/leaf_up.gif);
+ height:40px;
+ width:50px;
+ cursor: pointer;
+ position: relative;
+ top: 0;
+}
+.Scrollbar-Down {
+    background-image:url(../img/leaf_down.gif);
+	height:40px;
+	width:50px;
+	cursor: pointer;
+	position:relative;
+	top:0px;
+}
+.Scrollbar-Track {
+    background-image:url(../img/leaf_track.gif);
+	height:600px;
+	width:50px;
+	position:relative;
+	}
+.Scrollbar-Handle {
+	background-image:url(../img/leaf_scroll.gif);
+	height:32px;
+	width:50px;
+	position: absolute;
+	top:0px;
+	}
+.Scroller-Container {
+	position:absolute;
+	width: 649px;
+  }
+#Scroller {
+  position: relative;
+  width: 650px;
+  height: 680px;
+  overflow: hidden;
+  float:left;
+  clear:none;
+}

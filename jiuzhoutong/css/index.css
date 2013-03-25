@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+#nav {
+	width:460px;
+	left:395px;
+}
+#nav li {
+	margin-right:8px;
+}
+#birthday {
+	position:relative;
+	left:140px;
+	top:-54px;
+	float:left;
+	width:255px;
+}
+#birthdayTop {
+	width:255px;
+	height:54px;
+	display:block;
+	cursor:pointer;
+	background-image: url(../img/birthday_title.gif);
+}
+#birthdayCont {
+	height:600px;
+	width:225px;
+	background-image:url(../img/left_box_bg.gif);
+	background-repeat:repeat-y;
+	padding:0 25px 0 15px;
+	overflow:hidden;
+}
+#birthdayBottom {
+	height:25px;
+	width:255px;
+	background-image:url(../img/left_box_bottom.gif);
+	background-repeat:no-repeat;
+}
+#rightCont {
+	width:460px;
+	height:650px;
+	float:left;
+	position:relative;
+	left:140px;
+	padding:10px 0 0 3px;
+}
+.columnTitle {
+	padding-left:10px;
+	border-bottom:solid 4px #ec7631;
+	margin-bottom:2px;
+	height:20px;
+	float:left;
+	clear:none;
+}
+#rightCont .columnTitle {
+	width:125px;
+}
+.cont {
+	margin-right:10px;
+	clear:both;
+}
+#news .cont a {
+	color: #73874f;
+	font-size:14px;
+}
+#news .cont {
+	width:260px;
+	height:95px;
+	padding: 10px 10px 0px 25px;
+	margin:0;
+	clear:left;
+}
+#news .right {
+    float:right;
+	clear:none;
+	height:95px;
+	overflow:visible;
+	width:120px;
+}
+#news .cont li {
+	padding:2px 0 3px 0;
+}
+#bumen .cont {
+	height:200px;
+	border:solid 5px #ddd;
+}
+#bumen .left {
+	position:relative;
+	width:210px;
+	height:180px;
+	float: left;
+	padding:10px 0 0 10px;
+}
+#bumen .right {
+	text-align:center;
+	border-left:solid 2px #ec7631;
+	position:relative;
+	width:210px;
+	height:180px;
+	float:right;
+	top:5px;
+	padding-top:10px;
+}
+#bumen .right a:visited {
+    color:#FF9966;
+}
+#book {
+ position:relative;
+ height:210px;
+ top:5px;
+ }
+#book .cont {
+	height:200px;
+	border:solid 5px #ddd;
+	background-image:url(../img/book_bg.jpg);
+	padding:5px 5px 3px 8px;
+	clear:both;
+}
+#bottom {
+	width:1002px;
+	position: relative;
+	height:220px;
+	float:left;
+	clear:both;
+	top:-20px;
+}
+#bottom .columnTitle {
+	width:340px;
+	height:20px;
+}
+#bottom .columnTitle img {
+	border-left: solid 5px #ec7631;
+	margin-bottom:3px;
+	clear:none;
+	float:left;
+	left:-3px;
+	position:relative;
+}
+#bottom .left {
+	width:350px;
+	height:180px;
+	left:140px;
+	clear:none;
+	float:left;
+	position:relative;
+}
+#bottom .right {
+	width:350px;
+	height:180px;
+	padding-left:10px;
+	position:relative;
+	clear:none;
+	float:right;
+	right:140px;
+}
+#bottom .cont {
+	padding-top:8px;
+}

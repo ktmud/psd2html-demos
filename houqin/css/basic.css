@@ -1,0 +1,381 @@
+@charset "utf-8";
+
+hr {
+    display:none;
+}
+
+/*初始化样式*/
+* {
+    font: 9pt Arial, Helvetica, sans-serif, "宋体";
+    background:transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    clear:none;
+}
+
+body {
+    background:#fff;
+}
+
+a {
+    text-decoration:none;
+}
+
+/*定义常用类*/
+.bg-center {
+    background-repeat:repeat-y;
+}
+
+.lside {
+    float:left;
+}
+
+.rside {
+    float:right;
+}
+
+.pRela {
+    position:relative;
+}
+
+.pAbso {
+    position:absolute;
+}
+
+.u_yes:hover {
+    text-decoration:underline;
+}
+
+/*-------定义各栏目背景-----*/
+.bg {
+    opacity:0.4;
+    filter: Alpha(Opacity=40);
+    position:absolute;
+}
+
+.bg6 {
+    opacity:0.6;
+    filter: Alpha(Opacity=60);
+    position:absolute;
+}
+
+.bg-box {
+    background:#cdf8bf;
+    border:solid 1px #366a30;
+}
+
+#bg-picBox {
+    background:#9dd721;
+    border:1px solid #1f520b;
+}
+
+#bg-echoBox {
+    border:1px solid #525612;
+    background:#a08c06;
+}
+
+#bg-tipsBox {
+    border:1px solid #707314;
+    background:#a1ae34;
+}
+
+/*---------定义栏目背景结束---------*/
+
+/*主容器*/
+#allContainer {
+    width:780px;
+    margin:0 auto;
+    background:#FFF url(../img/bg/h_c.png) repeat-y;
+}
+
+#toph {
+    height:15px;
+    background:#FFF url(../img/bg/h_t.png) no-repeat bottom;
+}
+
+#bottomh {
+    background:#FFF url(../img/bg/h_b.png) no-repeat top;
+    height:15px;
+}
+
+#mainContainer {
+    background:#fff url(../img/bg/main_bg.jpg) no-repeat center bottom;
+    width:760px;
+    margin:0px 10px;
+}
+
+/*---顶部开始------------*/
+#header {
+    height:140px;
+    background-color:#f0d22e;
+}
+
+#headerLeft {
+    height:140px;
+    float:left;
+}
+
+#headerRight {
+    background-color:#cadf65;
+    height:140px;
+    float:right;
+}
+
+#headerSlogan {
+    border:1px solid #b3c153;
+    margin:5px 9px;
+    width:560px;
+    height:20px;
+    background-color:#e3ef60;
+}
+
+#headerSlogan p {
+    color:#83a223;
+    padding:2px 5px 0 8px;
+ *padding:4px 5px 0 8px;
+    letter-spacing:0;
+}
+
+/*----------------------顶部结束---*/
+
+/*----横向导航---------*/
+#h-nav {
+    text-align:center;
+    height:20px;
+    background:url(../img/bg/hnav_c.gif) repeat-x;
+    clear:both;
+    overflow:hidden;
+}
+
+#h-nav ul {
+}
+
+#h-nav li {
+    display:block;
+    float:left;
+}
+
+#h-nav li a {
+    letter-spacing:0.1em;
+    color:#fdf680;
+    display:block;
+    width:80px;
+    margin:1px 12px;
+    padding-top:1px;
+    *padding-top:3px;
+}
+
+#h-nav li a:hover {
+    width:78px;
+    height:17px;
+    *height:15px;
+    background:#91d116;
+    border:1px solid #92c336;
+    border-top:none;
+    color:#f7fac2;
+}
+
+#h-nav .lside {
+    background: url(../img/bg/hnav_l.gif);
+    height: 20px;
+    width: 5px;
+}
+
+#h-nav .rside {
+    background: url(../img/bg/hnav_r.gif);
+    height: 20px;
+    width: 5px;
+}
+
+/*-----横向导结束-------*/
+#always {
+    float:left;
+    clear:left;
+}
+#suggetion {
+   margin:-50px 0 0 10px;
+}
+/*----左部导航开始-----------------------*/
+#bg-leftBar {
+    background: #e7fac2 url(../img/bg/left_bar_top.jpg) no-repeat center top;
+    height:550px;
+    width: 180px;
+    z-index:2;
+}
+
+#leftBar {
+    width: 180px;
+    text-align:center;
+    position: absolute;
+    z-index:3;
+}
+
+#mailToManager {
+    display: block;
+    margin:15px auto 10px auto;
+    height: 42px;
+    color:#696;
+    font-size:8pt;
+}
+
+#mailToManager:hover {
+    color: #360;
+}
+/*------左部导航--------*/
+#leftNav {
+    margin: 20px;
+    text-align:left;
+    display:block;
+}
+
+#leftNav h3 {
+    color:#58a92c;
+    border-bottom: 1px solid #cae49c;
+    border-left:18px solid #cae49c;
+    padding:1px 0 0 3px;
+    font: normal 14px "黑体";
+    margin-bottom:5px;
+    display:block;
+    height:16px;
+}
+#leftNav li{margin-bottom:5px; display:block;}
+#leftNav .subMenu {
+    margin:0 0 8px 40px;
+}
+
+#leftNav .subMenu a {
+    border-bottom: 1px dashed #649b1d;
+    height:15px;
+    display:block;
+    margin-top:5px;
+    letter-spacing:0.3em;
+    color:#649b1d;
+    font-size:10pt;
+}
+
+#leftNav .subMenu a:hover {
+    color:#fdf680;
+    background: #8a3;
+    padding-left:8px;
+    border-bottom:solid 1px #FFCC00;
+}
+
+/*-----左部导航结束----------*/
+
+/*搜索表单开始-------------------*/
+#search{
+    color:#897;
+    clear:both;
+    height:20px;
+    margin:0 12px 0 20px;
+}
+
+#search * {
+    float:left;
+}
+#search span{margin-top:2px;}
+#searchForm{display:block;}
+#queryKey {
+    background: url(../img/bg/searchForm_bg.jpg);
+    color:#FFFFCC;
+    float:left;
+    border: 1px solid #669900;
+    width:91px;
+    height:14px;
+    margin:0 3px;
+    font-style:italic;
+}
+
+#searchGo {
+    margin-top:-2px;
+    display:block;
+}
+
+#goTip {
+    position:absolute;
+    text-align:left;
+    left:165px;
+    display:none;
+    z-index:10;
+    width:120px;
+    padding:5px;
+    border:2px outset #ecf6c8;
+    color:#360;
+    background:#d5eca9;
+}
+
+/*搜索表单结束-------------------*/
+#quickLink {
+   margin:20px;
+}
+
+#quickLink a{
+    display:block;
+    height:26px;
+    margin-top:5px;
+}
+
+/*---------友情链接开始-----------*/
+
+#showHotLinks {
+    cursor:pointer;
+    display:block;
+    clear:both;
+}
+
+#hotLinks {
+    display:none;
+    height:140px;
+}
+
+#hotLinks a {
+    border:1px dashed #cadeb9;
+    width:70%;
+    padding-top:2px;
+    display: block;
+    margin:3px auto 0 auto;
+    color:#ffd;
+    font-size:9pt;
+}
+
+#hotLinks a:hover {
+    color:#ffe;
+    border-style:solid;
+    background: #6f9c14;
+}
+
+/*------友情链接结束--------------*/
+
+/*---------主要大块内容开始---------*/
+#wideContents {
+    margin:20px auto auto 185px;
+}
+
+#footer {
+    color:#3a6b32;
+    height:30px;
+    width:600px;
+    float:left;
+    clear:both;
+    margin:20px 0 10px 0;
+}
+
+.footerBox {
+    position:absolute;
+    width:580px;
+    height:22px;
+}
+#footerCont{padding-top:3px;margin-left:145px;}
+#footerCont a {
+    color:#252;
+}
+
+#footerCont a:hover {
+    color:#562;
+}
+
+#bg-footerBox {
+    background:#fffabf;
+}

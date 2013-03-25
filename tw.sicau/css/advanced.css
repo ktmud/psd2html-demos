@@ -1,0 +1,518 @@
+/*-----高级  v0.1   2008-8-15-----*/
+
+/*********************************************************
+ * 共青团四川农业大学委员会网站 
+ * 版权所有: 06级木科系装饰2班   杨建超(http://jackoko.cn)
+ *--------------------------------------------------------*/
+
+/* 面包屑导航条 */
+.breadcrumb {
+	background:url(../img/bg_breadcrumb.jpg) no-repeat;
+	padding-left:10px;
+	height:19px;
+	position:relative;
+	left:-14px;
+	font:normal 12px Verdana, Arial, Helvetica, sans-serif;
+	padding-top:6px;
+	color:#fff;
+}
+.breadcrumb {
+}
+.breadcrumb a {
+	padding-left:6px;
+	color:#960;
+}
+.breadcrumb a:hover {
+	color:#600;
+}
+/*--Tabs标签--*/
+.tabs-group {
+	background:#fff;
+	border:solid 1px #e9b5b5;
+	width:338px;
+	position:relative;
+}
+.tabs-wrapper {
+	position:relative;
+	height:48px;
+	margin-bottom:37px;
+	top:40px;
+}
+h2.with-tabs {
+	position:absolute;
+	font-size:16px;
+	border:none;
+	top:-35px;
+	left:0;
+}
+ul.tab-tt {
+	position:absolute;
+	background:url(../img/bg_tab-bar.gif) repeat-x center top;
+	height:31px;
+	top:0;
+	left:0;
+	width:100%;
+	padding:0;
+	margin:0;
+	border-bottom:none;
+}
+.secondary {
+	top:-16px;
+	height:40px;
+	width:80%;
+	margin-bottom:0;
+}
+.secondary ul.tab-tt {
+	height:24px;
+	background-position:center -4px;
+}
+ul.tab-tt li {
+	height:27px;
+	float:left;
+	font:bold 15px Verdana, Arial, Helvetica, sans-serif;
+	color:#a46363;
+	display:block;
+	border:none;
+}
+ul.tab-tt li a {
+	font:bold 15px Verdana, Arial, Helvetica, sans-serif;
+	color:#a46363;
+	background:transparent;
+	border:none;
+	margin:0;
+	outline:none;
+	display:block;
+	height:100%;
+	padding:6px 10px 0;
+	float:left;
+}
+ul.tab-tt li a:hover {
+	background:transparent;
+	text-decoration:underline;
+}
+ul.tab-tt li.active {
+	background:url(../img/bg_active-tab.png) no-repeat center top;
+	height:37px;
+	position:relative;
+}
+ul.secondary {
+	font-size:80%;
+}
+.secondary ul.tab-tt li a {
+	font:normal 13px Verdana, Arial, Helvetica, sans-serif;
+	border:none;
+	padding:4px 8px 0;
+}
+.secondary ul.tab-tt li.active {
+	background:url(../img/bg_active-tab-small.png) no-repeat center top;
+	height:31px;
+}
+/* Sliding Door滑动门 */
+.l, .r {
+	position:absolute;
+}
+.l {
+	left:0;
+}
+.r {
+	right:0;
+}
+.secondary ul.tab-tt li.active span {
+	height:22px;
+}
+ul.tab-tt li.active span {
+	width:4px;
+	height:30px;
+	position:absolute;
+	top:0px;
+	background:url(../img/bg_active-tab.png) no-repeat left top;
+}
+ul.tab-tt li.active span.r {
+	background-position:right top;
+}
+ul.tab-tt li.active a {
+	color:#cc2f0b;
+	background:transparent;
+	border:none;
+}
+.tabs-group p.more {
+	position:absolute;
+	font:normal 12px "宋体";
+	color:#caa;
+	right:10px;
+	top:8px;
+}
+.tabs-group p.more a {
+	font:normal 12px "宋体";
+	padding-top:10px;
+	color:#eab8b8;
+}
+.tabs-group p.more a:hover {
+	color:#e36a00;
+	text-decoration:none;
+}
+div.tab-cont {
+	display:none;
+	margin-top:40px;
+	padding:0 8px 6px 8px;
+	position:relative;
+	z-index:30;
+}
+.tabs-group div.active {
+	display:block;
+}
+/*-------END Tabs标签----------------------*/
+
+
+/* ------分页pager------- */
+.item-list .pager {
+	height:3em;
+	padding:0;
+	display:block;
+	margin:20px auto 0;
+}
+.item-list .pager li {
+	margin:0 0 0 1px;
+	background:#F9D0D0;
+	display:block;
+	vertical-align:middle;
+	padding:0;
+	float:left;
+	border-bottom:solid 3px #c33;
+}
+.item-list .pager li.last a {
+	border-right:solid 1px #fcc;
+}
+.item-list .pager li a {
+	display:block;
+	float:left;
+	padding:6px;
+	height:100%;
+	color:#644;
+}
+.item-list .pager li a:hover, .pager li.pager-next, .pager li.pager-previous {
+	text-decoration:none;
+	background:#EFA3A3;
+	color:#fff;
+}
+.item-list .pager li a.active {
+	border:0;
+}
+.item-list .pager li a:hover {
+	border-top:solid 3px #c33;
+	border-bottom:0;
+}
+.item-list .pager li.pager-current {
+	font-weight:normal;
+	padding:6px;
+	font-size:inherit;
+	background:#D63131;
+	color:#fff;
+	border-bottom:solid 3px #faa;
+	position:relative;
+	top:-1em;
+	left:1px;
+	margin:0;
+}
+.item-list .pager li.first,.item-list .pager li.last {
+	top:0;
+}
+.item-list .pager li.pager-ellipsis {
+	background:none;
+	margin:1em;
+	border:0;
+}
+/* -----  END 分页pager ------- */
+
+/* 订阅本站RSS新闻 */
+h4.rss {
+	width:200px;
+}
+h4.rss a {
+	display:block;
+	height:58px;
+	background-image: url(../img/tt_rss.gif);
+	text-indent:-9999px;
+}
+h4.rss a:hover {
+	background-position: bottom;
+}
+/* 友情链接 */
+ul#hotlinks-list {
+	text-align:center;
+	height:175px;
+	overflow:hidden;
+	position:relative;
+	padding:0;
+}
+ul#hotlinks-list li {
+	height:52px;
+	margin:0 0 8px 0;
+}
+ul#hotlinks-list img {
+	border:solid 1px #eca4a4;
+}
+/* 用户登陆 */
+#user-login-form input {
+	width:80%;
+}
+#user-login-form ul {
+	width:8em;
+	margin:1em auto;
+}
+/*---------------- clueTips ---------------*/
+
+#cluetip-close img {
+	border: 0;
+}
+#cluetip-title {
+	overflow: hidden;
+}
+#cluetip-title #cluetip-close {
+	float: right;
+	position: relative
+}
+#cluetip-waitimage {
+	width: 43px;
+	height: 11px;
+	position: absolute;
+	background-image: url(../img/loading.gif);
+}
+.cluetip-arrows {
+	position: absolute;
+	z-index:97;
+	top: 20%;
+	left: -12px;
+	height: 14px;
+	width: 12px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+/***************************************
+   =cluetipClass: 'jackoko'
+-------------------------------------- */
+.cluetip-jackoko {
+	background-color: transparent;
+	font-size:12px;
+	text-align:justify;
+}
+.cluetip-jackoko #cluetip-extra {
+	background:#000;
+	width:100%;
+	height:100%;
+	opacity:0.4;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.cluetip-jackoko #cluetip-outer {
+	position: relative;
+	height:100%;
+	padding:6px;
+}
+.cluetip-jackoko h3#cluetip-title {
+	position:relative;
+	padding: 5px 5px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #c33;
+	background:#fdd;
+}
+.cluetip-jackoko #cluetip-inner {
+	padding:0.5em 1em;
+	background:#ffe9e9;
+	color:#333;
+}
+.cluetip-jackoko div#cluetip-close {
+	position: absolute;
+	top:-6px;
+	right:-6px;
+	background: url(../img/cross.png) no-repeat center center;
+	width:22px;
+	height:22px;
+	cursor:pointer;
+}
+.cluetip-jackoko div#cluetip-close a {
+	display:none;
+}
+/* jackoko arrows */
+
+.clue-right-jackoko .cluetip-arrows {
+	background-image: url(../img/arrow_left.png);
+}
+.clue-left-jackoko .cluetip-arrows {
+	background-image: url(../img/arrow_right.png);
+	left: 100%;
+}
+.clue-top-jackoko .cluetip-arrows {
+	background-image: url(../img/arrow_down.png);
+	top: 100%;
+	left: 50%;
+	width:14px;
+	height:12px;
+}
+.clue-bottom-jackoko .cluetip-arrows {
+	background-image: url(../img/arrow_up.png);
+	top: -12px;
+	left: 50%;
+	width:14px;
+	height:12px;
+}
+
+
+/* 首页 */
+.pic-slider {
+	background:url(../img/bg_pic-slider.gif);
+	width:348px;
+	height:228px;
+	overflow:hidden;
+	position:relative;
+	left:-4px;
+}
+.pic-wrapper a {
+	border:solid 1px #a00;
+	display:block;
+	overflow:hidden;
+	width:338px;
+	height:218px;
+	position:absolute;
+	z-index:19;
+	top:4px;
+	left:4px;
+}
+.pic-slider-list li {
+	width:348px;
+	height:228px;
+	display:none;
+}
+.pic-slider-list li.active {
+	display:block;
+}
+.pic-slider h4, .bg-pic-slider-title {
+	position:relative;
+	top:193px;
+	left:5px;
+	height:26px;
+	width:328px;
+	padding:2px 5px;
+	font:normal 14px Arial, Helvetica, sans-serif;
+	color:#000;
+	text-align:center;
+	letter-spacing:1px;
+	line-height:2em;
+	overflow:hidden;
+	z-index:23;
+}
+.pic-slider-goto a, .bg-pic-slider-title {
+	position:absolute;
+	z-index:22;
+	background:#08c;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+a.pic-slider-1, #pic-slider-1 .bg-pic-slider-title {
+	background:#0c6;
+}
+a.pic-slider-2, #pic-slider-2 .bg-pic-slider-title {
+	background:#c00;
+}
+a.pic-slider-3, #pic-slider-3 .bg-pic-slider-title {
+	background:#d0bf00;
+}
+a.pic-slider-4, #pic-slider-4 .bg-pic-slider-title {
+	background:#08c;
+}
+.pic-slider-goto {
+	position:absolute;
+	left:136px;
+	top:5px;
+	z-index:21;
+}
+.pic-slider-goto li {
+	float:left;
+}
+.pic-slider-goto li a {
+	position:relative;
+	width:18px;
+	height:18px;
+	font:normal 14px Arial, Helvetica, sans-serif;
+	display:block;
+	text-align:center;
+	color:#FFFFFF;
+	outline:none;
+}
+.pic-slider-goto li a:hover, .pic-slider-goto li a.focus {
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	text-decoration:none;
+}
+.pic-slider-goto li a.active {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+#third-content {
+	position:absolute;
+	right:0;
+}
+#news-tabs {
+	margin-top:16px;
+}
+#focus-tabs {
+	margin-top:20px;
+}
+#right-content .tt {
+	width:275px;
+	height:30px;
+	text-indent:-9999px;
+	margin-left:-10px;
+	margin-bottom:8px;
+	background-image:url(../img/tt.png);
+}
+.poll {
+	background-position:top;
+}
+.files {
+	background-position:bottom;
+}
+#poll-form, #files-list {
+	display:block;
+	background:#f3f0f0;
+	padding:10px;
+	border:solid 1px #ccc;
+	border-left:none;
+	border-right:none;
+	margin-bottom:20px;
+}
+#poll-form h3 {
+	border-left:solid 10px #fcb500;
+	background:#007f2a;
+	height:14px;
+	font-size:14px;
+	color:#fff;
+	padding:6px;
+	width:auto;
+	margin-bottom:10px;
+}
+#poll-form p {
+	margin-bottom:16px;
+	color:#600;
+	font-size:14px;
+	padding:10px;
+}
+#poll-form div.icon-wrapper {
+	text-align:right;
+}
+#poll-form label {
+	line-height:1.5em;
+}
+#poll-form label input {
+}
+#files-list li {
+	font-size:14px;
+	margin:0.3em 0;
+	background:url(../img/bullet_paper.gif) no-repeat left center;
+	padding-left:1em;
+}
+#ex-tabs {
+	margin:0 auto;
+}

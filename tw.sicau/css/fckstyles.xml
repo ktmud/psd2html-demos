@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  <Styles >
+    <Style name="左浮动图片" element="img">
+      <Attribute name="style" value="float:left; margin: 6px;" />
+    </Style>
+  <Style name="无缩进" element="p">
+    <Attribute name="class" value="no-indent" />
+  </Style>
+  <Style name="帮助文本" element="div">
+    <Attribute name="class" value="help" />
+  </Style>
+</Styles>
